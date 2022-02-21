@@ -11,9 +11,9 @@ Your team will develop the code for the *Nuggets* game, according to the [Requir
 * All teams shall implement the game server.
 * Teams of 4 students shall also implement the game client.
 * We provide a starter kit via GitHub Classroom.
-* Your team shall follow the [Git Flow](https://github.com/CS50Dartmouth21FS1/home/blob/fall21s1/knowledge/units/git-flow.md) style of git management.
+* Your team shall follow the [Git Flow](https://github.com/cs50winter2022/home/blob/main/knowledge/units/git-flow.md) style of git management.
 * Good design, good style, good documentation, and good testing are expected.
-* Consider the [characteristics of a successful team](https://github.com/CS50Dartmouth21FS1/home/blob/fall21s1/activities/activity7/).
+* Consider the [characteristics of a successful team](https://github.com/cs50winter2022/home/tree/main/activities/activity7).
 
 :arrow_forward:
 You may find this [demo video](https://dartmouth.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=dbece9b4-30f1-49ab-8669-ad220160f0f0) to be helpful.
@@ -22,7 +22,7 @@ You may find this [demo video](https://dartmouth.hosted.panopto.com/Panopto/Page
 
 When you accept the assigment using the GitHub Classroom (using the link in Canvas), you will be asked to join an existing team or to create a new team.
 Please coordinate with your teammates to ensure that your team is registered just once.
-One member should **immediately** configure your repo to [protect the main branch](https://github.com/CS50Dartmouth21FS1/home/blob/fall21s1/knowledge/units/protect-main.md).
+One member should **immediately** configure your repo to [protect the main branch](https://github.com/cs50winter2022/home/blob/main/knowledge/units/protect-main.md).
 All members of the team should then clone the team's new repository, which includes the starter kit.
 
 ## Submissions
@@ -157,7 +157,7 @@ Your final project will be graded out of 100 as follows:
 
 ***See the [grading rubric](rubric.md).***
 
-Furthermore, immediately after the project you will each complete a confidential online survey in which you comment on your contribution to the project, and the contributions from members of your group; the Professor uses the information in that survey to set part of your overall course grade (recall the grading policy in our [syllabus](https://github.com/CS50Dartmouth21FS1/home/blob/fall21s1/logistics/syllabus.md).
+Furthermore, immediately after the project you will each complete a confidential online survey in which you comment on your contribution to the project, and the contributions from members of your group; the Professor uses the information in that survey to set part of your overall course grade (recall the grading policy in our [syllabus](https://github.com/cs50winter2022/home/blob/main/logistics/syllabus.md).
 
 ---
 
@@ -276,7 +276,7 @@ It's worth writing the comments and defensive code *as you write the functional 
 
 ### Break down big functions
 
-Review the [unit](https://github.com/CS50Dartmouth21FS1/home/blob/fall21s1/knowledge/units/cohesion.md) about *cohesion* and *coupling*, and think about the content and role of each function you write.
+Review the [unit](https://github.com/cs50winter2022/home/blob/main/knowledge/units/cohesion.md) about *cohesion* and *coupling*, and think about the content and role of each function you write.
 If a function starts to get large, break it down into smaller functions.
 I found this to be particularly important for my `handleMessage` functions, because there are multiple message types and every message needs to be handled in a different way.
 Thus, my `handleMessage()` became a really short `if... then... else if... else if... else` structure, wherein each "then" and "else" block was a single statement: calling a `handleXYZ()` function that was specifically focused on handling only that `XYZ` type of message.
@@ -319,8 +319,8 @@ Consider the same approach for any unit you develop.
 As noted in under the [grading](#grading) heading, a substantial portion of your project grade rests on style.
 Some things to consider:
 
-* Follow [CS50 style guidelines](https://github.com/CS50Dartmouth21FS1/home/blob/fall21s1/logistics/style.md), including naming conventions.
-* Use a consistent naming scheme: choose function and variable names that follow a consistent pattern, recalling the naming tips from a [recent unit](https://github.com/CS50Dartmouth21FS1/home/blob/fall21s1/knowledge/units/cohesion.md).
+* Follow [CS50 style guidelines](), including naming conventions.
+* Use a consistent naming scheme: choose function and variable names that follow a consistent pattern, recalling the naming tips from a [recent unit](https://github.com/cs50winter2022/home/blob/main/knowledge/units/cohesion.md).
 * Use consistent terminology across all specs and code comments: the Requirements Spec gives precise definitions for certain terms (like *gridpoint*, *player*, *purse*, *visible*, and more); use those terms rather than making up new terms, and use those terms consistent with their definitions.
 * Use a consistent coordinate system: the Requirement Spec refers to *rows* and *columns* of the grid and of the display; your two specs, and your implementation, should follow that lead. If you choose to refer to (x,y) instead of (col,row), do it consistently... do not mix the two notations, which leads to confusion.
 * Avoid sprinkling char literals throughout code: define some global named constants, e.g., `static const char roomSpot = '.';`  your code will be much more readable and maintainable!
@@ -328,7 +328,7 @@ Some things to consider:
 
 ### Global variables
 
-In the [unit](https://github.com/CS50Dartmouth21FS1/home/blob/fall21s1/knowledge/units/cohesion.md) about *cohesion* and *coupling*, we noted that global *variables* are a bad form of coupling.
+In the [unit](https://github.com/cs50winter2022/home/blob/main/knowledge/units/cohesion.md) about *cohesion* and *coupling*, we noted that global *variables* are a bad form of coupling.
 Global *constants* are a good thing, and fairly common.
 Declare them as `static const ...` to ensure they cannot be changed, and ensure they are local to this particular file.
 
@@ -363,7 +363,7 @@ It enables applications to send and receive network messages and also handle key
 
 ### nCurses
 
-The client shall use the *ncurses* library to arrange its interactive display; see the [unit about ncurses](https://github.com/CS50Dartmouth21FS1/home/blob/fall21s1/knowledge/units/ncurses.md).
+The client shall use the *ncurses* library to arrange its interactive display; see the [unit about ncurses](https://github.com/cs50winter2022/home/blob/main/knowledge/units/ncurses.md).
 Note:
 
 * ncurses has ["still reachable" memory leaks](https://invisible-island.net/ncurses/ncurses.faq.html#config_leaks); ignore them.
@@ -395,7 +395,7 @@ For example, the format string `GRID %d %d` matches successfully only when the s
 
 ### Random numbers
 
-See the [unit]([https://github.com/cs50dartmouth21fs1/home/blob/fall21s1/knowledge/units/random.md]) about random numbers.
+See the [unit](https://github.com/cs50winter2022/home/blob/main/knowledge/units/random.md) about random numbers.
 
 ### libcs50
 
@@ -425,7 +425,7 @@ i found it useful to write little inline functions to convert from a player numb
 
 ### the switch statement
 
-see the [unit](https://github.com/CS50Dartmouth21FS1/home/blob/fall21s1/knowledge/units/c-flow.md) about the `switch` statement, which is particularly useful when you have a long list of cases that can be described by a simple comparison.
+see the [unit](https://github.com/cs50winter2022/home/blob/main/knowledge/units/c-flow.md) about the `switch` statement, which is particularly useful when you have a long list of cases that can be described by a simple comparison.
 For example,
 
 ```c

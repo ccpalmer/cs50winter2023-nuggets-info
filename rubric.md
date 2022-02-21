@@ -94,7 +94,7 @@ We grade this section out of 34 points.
 
 ## Code style and quality (15%)
 
-See *[CS50 coding standards](https://www.cs.dartmouth.edu/~cs50/Labs/CodingStyle.html)*.
+See *[CS50 coding standards](https://github.com/cs50winter2022/home/blob/main/logistics/style.md)*.
 
 * code should be well-organized with sensible filenames and subdirectories
 * brief `README.md` in each directory
@@ -134,7 +134,7 @@ We grade this section out of 20 points.
   # (4) GitHub wiki shows good use of Sprint retrospectives
   # (4) GitHub Project Board shows good use of Scrum planning
   * (8) git commit history - logical groupings of changes in each commit, and meaningful commit messages.
-  * (8) git commit history - good use of branches and [git-flow](https://www.cs.dartmouth.edu/~cs50/Lectures/units/git-flow.html).
+  * (8) git commit history - good use of branches and [git-flow](https://github.com/cs50winter2022/home/blob/main/knowledge/units/git-flow.md).
   * (4) no executable files, object files, core dump files, editor backup files, or extraneous files existing in any directory.
 
 ## Functionally correct and complete (30%)
