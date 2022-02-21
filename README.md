@@ -319,7 +319,7 @@ Consider the same approach for any unit you develop.
 As noted in under the [grading](#grading) heading, a substantial portion of your project grade rests on style.
 Some things to consider:
 
-* Follow [CS50 style guidelines](), including naming conventions.
+* Follow [CS50 style guidelines](https://github.com/cs50winter2022/home/blob/main/logistics/style.md), including naming conventions.
 * Use a consistent naming scheme: choose function and variable names that follow a consistent pattern, recalling the naming tips from a [recent unit](https://github.com/cs50winter2022/home/blob/main/knowledge/units/cohesion.md).
 * Use consistent terminology across all specs and code comments: the Requirements Spec gives precise definitions for certain terms (like *gridpoint*, *player*, *purse*, *visible*, and more); use those terms rather than making up new terms, and use those terms consistent with their definitions.
 * Use a consistent coordinate system: the Requirement Spec refers to *rows* and *columns* of the grid and of the display; your two specs, and your implementation, should follow that lead. If you choose to refer to (x,y) instead of (col,row), do it consistently... do not mix the two notations, which leads to confusion.
